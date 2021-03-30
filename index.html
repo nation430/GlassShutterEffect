@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>3d Card Layer</title>
+  </head>
+  <body>
+    <section>
+      <h2 id="rangeValue">0</h2>
+      <div id="fileRnageTop"></div>
+      <input
+        type="range"
+        class="range"
+        value="0"
+        min="0"
+        max="100"
+        onmousemove="rangeSlider(this.value)"
+        onchange="rangeSlider(this.value)"
+      />
+    </section>
+    <script src="assets/script/script.js"></script>
+  </body>
+</html>
