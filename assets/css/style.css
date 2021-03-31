@@ -60,3 +60,60 @@ input[type=range]::-moz-range-thumb,
     appearance: none;
     box-shadow: -415px 0 0 400px #22ff08;;
 }
+
+#fileRangeTopLeft{
+    position:fixed;
+    top:0;
+    left:0;
+    height:50%;
+    box-sizing: border-box;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.25);
+    border-right: 1px solid rgba(255,255,255,0.05);
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    backdrop-filter: blur(15px);
+    pointer-events: none;
+    z-index: 2;
+}
+
+
+#fileRangeTopRight{
+    position:fixed;
+    top:0;
+    right:0;
+    width:50%;
+    box-sizing: border-box;
+    box-shadow: 0 -5px 15px rgba(0,0,0,0.25);
+    border-left: 1px solid rgba(255,255,255,0.05);
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    backdrop-filter: blur(15px);
+    pointer-events: none;
+    z-index: 2;
+}
+
+#fileRangeBottomLeft{
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:50%;
+    box-sizing: border-box;
+    box-shadow: -5px 0 15px rgba(0,0,0,0.25);
+    border-right: 1px solid rgba(255,255,255,0.05);
+    border-top: 1px solid rgba(255,255,255,0.05);
+    backdrop-filter: blur(15px);
+    pointer-events: none;
+    z-index: 2;
+}
+
+#fileRangeBottomRight{
+    position:fixed;
+    bottom:0;
+    right:0;
+    height:50%;
+    box-sizing: border-box;
+    box-shadow: 5px 0 15px rgba(0,0,0,0.25);
+    border-left: 1px solid rgba(255,255,255,0.05);
+    border-top: 1px solid rgba(255,255,255,0.05);
+    backdrop-filter: blur(15px);
+    pointer-events: none;
+    z-index: 2;
+}
